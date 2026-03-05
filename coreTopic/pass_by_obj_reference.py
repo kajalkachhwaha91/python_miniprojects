@@ -1,15 +1,15 @@
 def immutable_func(x):
-    x = x + 10
+    x = ("modified","new one")
     print(f"Inside immutable_func: {x}")
 
 def mutable_func(val):
-    val.append(10)
+    val = {"role": "modified developer"}
     print(f"Inside mutable_func: {val}")
 
-a = 10
+a = ("original",)
 immutable_func(a)
 print(f"Outside immutable_func: {a}")
 
-list_val = [1, 2, 3]
+list_val = {"role": "developer"}
 mutable_func(list_val)
 print(f"Outside mutable_func: {list_val}")
