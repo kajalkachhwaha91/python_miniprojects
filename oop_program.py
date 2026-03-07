@@ -30,3 +30,16 @@ d1 = Dog("Buddy", 3)
 
 # Call the bark method
 d1.bark()
+
+# modifiyng the class property
+class Persona:
+  def __init__(self, age):
+    self.age = age
+
+  def show(self):
+    print("Age:", self.age)
+p1 = Persona(30)
+p1.show()
+
+p1.age = 20
+p1.show()
