@@ -1,0 +1,15 @@
+arr = [ 2, 4, 0, 7, 8,0, 4, 0, 2]
+pos = 0
+
+for i in range(len(arr)):
+  if arr[i] != 0:
+    arr[i], arr[pos] = arr[pos], arr[i]
+    pos += 1
+    
+    
+print(arr)
+
+
+
+
+
