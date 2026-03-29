@@ -15,3 +15,10 @@ for bit in binary:
 result = int(toggled, 2)
 
 print(result)
+
+
+# improve the code by using list comprehension and built-in functions
+import math
+n=int(input())
+k=(1<< int(math.log2(n))+1)-1
+print(n^k)
