@@ -15,7 +15,5 @@ for ch in s:
  else:
    special_char+=1
     
-    
-
 print(vol_count, cons_count , digit , special_char , end ="")
 
