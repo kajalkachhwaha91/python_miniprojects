@@ -9,6 +9,7 @@ print(cube)
 cube = [x**3 for x in range(10)]
 print(cube)
 
+
 # older form of dictionary
 cube = {}
 
@@ -20,4 +21,3 @@ print(cube)
 cube = { x : x**3 for x in range(5) }
 print(cube)
 
-pr
